@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>hexChanger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
+
+    <style>
+
+    body,html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+   .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        /* background:; */
+    }
+
+    .btn {
+        background: #adadad;
+        color: black;
+        padding: 14px 22px;
+        border-radius: 7px;
+        border: 1px solid #555555;
+        cursor: pointer;
+        font-size: 28px;
+        outline: none;
+    }
+
+    .btn:hover {
+        background: inherit;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn">Press to change background color</button>
+    </div>
+<script src="rgbChanger.js"></script>
+</body>
+</html>
